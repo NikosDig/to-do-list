@@ -3,6 +3,7 @@
     --orange:rgb(218, 157, 44);
     --white: #fff;
     --red: crimson;
+    --green: rgb(69, 215, 69);
 }
 body{
     margin: 0;
@@ -94,7 +95,7 @@ color: var(--mainRGB);
     flex-direction: column;
 }
 .edit{
-    color: var(--orange);
+    color: var(--green);
     font-size: 1.15rem;
     cursor: pointer;
     transition: 0.4s;
