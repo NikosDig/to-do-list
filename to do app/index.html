@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tod do app</title>
+    <title>To do app</title>
     <meta name="description" content="My to do app" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
@@ -15,25 +15,16 @@
       <form>
         <input
           type="text"
+          name="titleOfApp"
           id="titleOfApp"
           placeholder="What have you planned?"
-          value=""
+          required
         />
-        <input type="submit" id="add" value="Add task" />
+        <input type="submit" id="add" name="add" value="Add task" />
       </form>
       <section>
         <h2>Tasks</h2>
-        <div class="mainTaskContainer">
-          <!-- <div class="taskContainer">
-            <div class="taskList">
-              <input type="text" value="somethign" readonly />
-            </div>
-            <div class="editDelete">
-              <button class="edit">Edit</button>
-              <button class="delete">Delete</button>
-            </div>
-          </div> -->
-        </div>
+        <div class="mainTaskContainer"></div>
       </section>
     </main>
   </body>
