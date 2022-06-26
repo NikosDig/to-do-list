@@ -59,7 +59,7 @@ color: var(--mainRGB);
     cursor: pointer;
     transition: 0.4s;
 }
-.taskList {
+.taskContainer input {
     width: 80%;
     font-size: 1.5rem;
     margin: 0.8rem;
