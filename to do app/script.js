@@ -2,7 +2,6 @@ const form = document.querySelector("form");
 const titleOfTheApp = document.getElementById("titleOfApp");
 const addTask = document.querySelector(".add");
 const mainTaskContainer = document.querySelector(".mainTaskContainer");
-const taskListElement = document.querySelector(".taskList");
 
 form.addEventListener("submit", addContent);
 
